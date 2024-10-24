@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, arial, sans-serif;
+  box-sizing: border-box;
+}
+body {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.section1 {
+  height: 25px;
+  width: 100%;
+  font-size: 10px;
+  border-top: 0.5px solid lightgray;
+  border-bottom: 0.5px solid lightgray;
+}
+
+.div1 {
+  display: flex;
+  padding: 3px;
+}
+.div1 p {
+  text-transform: uppercase;
+  font-size: 8px;
+  padding-top: 2.5px;
+}
+.div1 #dropdown1 {
+  margin-left: 10px;
+  height: 15px;
+  font-size: 8px;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  width: 32px;
+  border-right: 1px solid lightgray;
+}
+.div2 {
+  font-size: 8px;
+  padding-left: 5px;
+  height: 15px;
+  border-right: 1px solid lightgray;
+  padding-right: 5px;
+  letter-spacing: 0.4px;
+}
+.div3 {
+  font-size: 8px;
+  padding-left: 8px;
+  height: 15px;
+  border-right: 1px solid lightgray;
+  padding-right: 5px;
+  letter-spacing: 0.4px;
+  display: flex;
+}
+.div3 .sun {
+  padding-left: 10px;
+  text-align: center;
+}
+.div4 {
+  font-size: 3px;
+  padding-left: 8px;
+  height: 15px;
+  padding-right: 5px;
+  margin-top: 1.5px;
+}
+.div4 button {
+  margin-left: 200px;
+  width: 60px;
+  height: 15px;
+  font-size: 7px;
+  text-transform: uppercase;
+  color: red;
+  background-color: #fff;
+  border: 0.5px solid red;
+  border-radius: 2px;
+}
+.div5 button {
+  margin-left: 15px;
+  width: 60px;
+  height: 15px;
+  font-size: 7px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  margin-top: 1.5px;
+}
+.div6 {
+  margin-left: 15px;
+  width: 60px;
+  height: 15px;
+  font-size: 7px;
+  border: none;
+  border-radius: 2px;
+  margin-top: 1.5px;
+}
+.div7 {
+  margin-left: 5px;
+  width: 160px;
+  height: 15px;
+  border: none;
+  outline: none;
+  background-color: #fff;
+}
+
+.section2 {
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  padding: 12px;
+  font-size: 30px;
+  font-weight: bold;
+  border-bottom: 1px solid lightgray;
+}
+.Hero-section {
+  padding-top: 20px;
+  font-weight: 100;
+}
+.Hero-section img {
+  width: 500px;
+  height: 350px;
+  margin-left: 20%;
+  padding-top: 20px;
+}
+.Hero-section p {
+  font-size: small;
+  padding: 10px;
+  line-height: 20px;
+}
